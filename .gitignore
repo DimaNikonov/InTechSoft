@@ -3,3 +3,10 @@
 ################################################################################
 
 /TestTaskWebApi/TestTaskWebApi.API/bin/Debug/netcoreapp2.2
+/TestTaskWebApi/TestTaskWebApi.API/obj
+/TestTaskWebApi/TestTaskWebApi.DAL/bin/Debug
+/TestTaskWebApi/TestTaskWebApi.DAL/obj
+/TestTaskWebApi/TestTaskWebApi.IntegrationTests
+/TestTaskWebApi/TestTaskWebApi.IntegrationTestsXUnit/bin/Debug/netcoreapp2.2
+/TestTaskWebApi/TestTaskWebApi.IntegrationTestsXUnit/obj
+/TestTaskWebApi/.vs/TestTaskWebApi

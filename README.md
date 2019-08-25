@@ -1,2 +1,0 @@
-# InTechSoft
-TestTask
