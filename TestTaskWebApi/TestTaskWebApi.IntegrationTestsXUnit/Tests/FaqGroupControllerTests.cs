@@ -1,7 +1,6 @@
 ﻿using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -13,7 +12,7 @@ using Xunit;
 
 namespace TestTaskWebApi.IntegrationTestsXUnit.Tests
 {
-    public class FaqGroupControllerTests : BaseTest<Startup>
+    public class FaqGroupControllerTests : BaseTest
     {
         public const string path = "/api/faqgroup";
 

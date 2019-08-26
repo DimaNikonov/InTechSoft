@@ -9,6 +9,5 @@ namespace TestTaskWebApi.DAL.Entitties
         public string Title { get; set; }
 
         public IEnumerable<FaqQuestion> FaqQuestions { get; set; }
-
     }
 }

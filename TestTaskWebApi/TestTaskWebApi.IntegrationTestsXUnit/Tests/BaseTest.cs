@@ -1,21 +1,20 @@
 ﻿using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
-using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
+using TestTaskWebApi.API;
 using Xunit;
 
 namespace TestTaskWebApi.IntegrationTestsXUnit.Tests
 {
-    public abstract class BaseTest<TFixture> :
-        IClassFixture<WebApplicationFactory<TFixture>> where TFixture : class
+    public abstract class BaseTest :
+        IClassFixture<WebApplicationFactory<Startup>> 
     {
         protected string mediaType = "application/json";
-        protected WebApplicationFactory<TFixture> factory;
 
-        public BaseTest(WebApplicationFactory<TFixture> factory)
+        protected WebApplicationFactory<Startup> factory;
+
+        public BaseTest(WebApplicationFactory<Startup> factory)
         {
             this.factory = factory;
         }
